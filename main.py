@@ -10,7 +10,7 @@ def translation_automation_job(cloud_event):
     print(f"Received Cloud Event: {cloud_event}")
 
     # The URL of the Cloud Run service
-    target_cloud_run_url = "https://translation-service-*********.us-central1.run.app/translate"
+    target_cloud_run_url = "URL"
     
     # Extract bucket and object name from the cloud event
     bucket_name = cloud_event.data['bucket']
